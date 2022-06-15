@@ -80,8 +80,7 @@ authRouter.get('/refresh', async(req, res) => {
   } catch (error) {
      return res.status(500).json({ errorMessage : 'Something went wrong'})
   }
-})
-
+});
 
 
 module.exports = authRouter;
